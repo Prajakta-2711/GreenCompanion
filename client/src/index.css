@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  
+  :root {
+    --background: 82 38% 98%;
+    --foreground: 217 33% 17%;
+    
+    --primary: 122 39% 49%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 88 47% 52%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 43 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 217 33% 17%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 33% 17%;
+    
+    --muted: 217 33% 97%;
+    --muted-foreground: 217 33% 35%;
+    
+    --border: 217 33% 90%;
+    --input: 217 33% 90%;
+    --ring: 122 39% 49%;
+    
+    --chart-1: 122 39% 49%;
+    --chart-2: 88 47% 52%;
+    --chart-3: 43 100% 50%;
+    --chart-4: 36 100% 50%;
+    --chart-5: 0 84% 60%;
+    
+    --radius: 0.5rem;
+  }
+  
+  h1, h2, h3, h4, button, .font-heading {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F9FBF9;
+    color: #2C3E50;
+  }
+}
